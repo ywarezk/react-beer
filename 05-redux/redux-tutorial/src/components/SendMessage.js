@@ -1,7 +1,7 @@
 import React from 'react';
 import {Formik, Form, Field} from 'formik';
 import {connect} from 'react-redux';
-import {setMessage} from '../redux/actions';
+import {setMessage} from '../redux/actions/messaging.actions';
 
 // props => {mySetMessage : store.dispatch(setMessage(''))}
 // props.mySetMessage('new message') => store.dispatch(setMessage('new message'))

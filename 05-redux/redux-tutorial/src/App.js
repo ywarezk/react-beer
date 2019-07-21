@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SendMessage from './components/SendMessage';
 import GetMessage from './components/GetMessage';
+import Search from './components/Search';
 
 function App() {
   // const [message, setMessage] = useState('');
@@ -13,6 +14,8 @@ function App() {
 
           <div className="col-6">
             <SendMessage />
+
+            <Search />
           </div>
 
           <div className="col-6">

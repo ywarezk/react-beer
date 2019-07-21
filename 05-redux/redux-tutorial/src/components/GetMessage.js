@@ -14,8 +14,8 @@ const GetMessage = (props) => {
 export default connect(
     (state) => {
         return {
-            myMessage : state.message,
-            type: state.typeMessage
+            myMessage : state.messaging.message,
+            type: state.messaging.typeMessage
         }
     }
 

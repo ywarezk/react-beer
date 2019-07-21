@@ -1,4 +1,4 @@
-import {SET_MESSAGE} from './actions';
+import {SET_MESSAGE} from '../actions/messaging.actions';
 
 const initialState = {
     message: 'message from state',
